@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226, 223, 239)
+}
+
+.flex-container {
+    display: flex;
+    /* Enable Flexbox layout */
+    flex-direction: column;
+    /* Arrange items in a column (vertical) */
+    gap: 20px;
+    /* Optional: Add space between items */
+    align-items: flex-start;
+    /* Align items to the start (left) */
+}
+
+.task {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    display: flex;
+    /* Enable Flexbox layout */
+    justify-content: center;
+    /* Center button horizontally */
+    align-items: center;
+    /* Center button vertically (optional, depending on your layout) */
+    width: 100%;
+    /* Ensure the container takes up full width */
+}
+
+.todos{
+    gap: 5%;
+}
